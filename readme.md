@@ -54,10 +54,10 @@ iButton Read/Write:
 
 Библиотеки:
 
-- Wire - для I2C (дисплей)  
-- Adafruit_GFX - графика для дисплея  
-- Adafruit_SSD1306 - драйвер дисплея  
-- OneWire - для iButton  
+- Wire - для общения с дисплеем по шине I2C
+- U8g2lib - для дисплея  
+- OneWireHub, OneWire и DS2401 - для iButton  
 - EEPROM - для памяти  
+- avr/pgmspace - для flash памяти
 
   
