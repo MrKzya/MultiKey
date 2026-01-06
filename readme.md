@@ -33,14 +33,14 @@
 
 RFID Emulation:
 <p>
-    <img src="./assets/EmuRFID.JPG" alt="project photo" width="900"/>
+    <img src="./assets/EmuRFID.jpg" alt="project photo" width="900"/>
 </p>
 
 Эмуляцию RFID я позаимствовал у [dlinyj](https://habr.com/ru/companies/ruvds/articles/533474/)
 
 RFID Read/Write:
 <p>
-    <img src="./assets/ReadWriteRFID.JPG" alt="project photo" width="900"/>
+    <img src="./assets/ReadWriteRFID.jpg" alt="project photo" width="900"/>
 </p>
 
 iButton Emulation:  
@@ -48,6 +48,6 @@ iButton Emulation:
 
 iButton Read/Write:
 <p>
-    <img src="./assets/ReadWriteIbut.JPG" alt="project photo" width="900"/>
+    <img src="./assets/ReadWriteIbut.jpg" alt="project photo" width="900"/>
 </p>
 
