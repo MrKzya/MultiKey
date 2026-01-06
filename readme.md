@@ -14,4 +14,40 @@
 - 2 конденсатора на 0.1 мкФ (104)
 - 1 транзитор 2N551
 - 1 операционный усилитель LM358N
-- Провода
+- 1 колебательный контур от RDM6300 (Для 125кГц нужен конденсатор на 3.3нФ)
+
+Распиновка:
+- D2 вход с усиллителя (1 нога) для чтения RFID
+- D7 выход на антенну для эмуляции RFID
+- D11 выход для записи RFID
+- D4 Кнопка вверх
+- D3 Кнопка ОК
+- D8 Кнопка вниз
+- D10 выход на эмуляцию iButton 
+- D12 выход на чтение/запись iButton
+- A4 OLED SDA
+- A5 OLED SCL
+
+
+Схема подключения:
+
+RFID Emulation:
+<p>
+    <img src="./assets/EmuRFID.JPG" alt="project photo" width="900"/>
+</p>
+
+Эмуляцию RFID я позаимствовал у [dlinyj](https://habr.com/ru/companies/ruvds/articles/533474/)
+
+RFID Read/Write:
+<p>
+    <img src="./assets/ReadWriteRFID.JPG" alt="project photo" width="900"/>
+</p>
+
+iButton Emulation:  
+Пин D10
+
+iButton Read/Write:
+<p>
+    <img src="./assets/ReadWriteIbut.JPG" alt="project photo" width="900"/>
+</p>
+
