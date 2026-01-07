@@ -54,7 +54,8 @@ RFID Emulation:
     <img src="./assets/EmuRFID.jpg" alt="project photo" width="900"/>
 </p>
 
-Эмуляцию RFID я позаимствовал у [dlinyj](https://habr.com/ru/companies/ruvds/articles/533474/)
+Эмуляцию RFID я позаимствовал у [dlinyj](https://habr.com/ru/companies/ruvds/articles/533474/).
+А распиновку взял [отсюда](https://www.el-component.com/bipolar-transistors/2n5551)
 
 RFID Read/Write:
 <p>
