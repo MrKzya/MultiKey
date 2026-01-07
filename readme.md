@@ -16,9 +16,9 @@ Main Menu/
 │   ├── Write - запись на болванки RW1990
 │   └── Emulate - эмуляция таблеток
 └── Utils/
-    ├── Clear EEPROM - очистить все ключи в памяти
-    ├── Clear RFID keys - очистить только ключи RFID
-    └── Clear iBut keys - очистить только таблетки iButton
+    ├── [Clear EEPROM] - очистить все ключи в памяти
+    ├── [Clear RFID keys] - очистить только ключи RFID
+    └── [Clear iBut keys] - очистить только таблетки iButton
 ```
 ### Список компонентов:
 
@@ -70,12 +70,10 @@ iButton Read/Write:
 </p>
 Желательно использовать резистор на 2.2 кОм или 4.7 кОм
 
-Библиотеки:
+### Библиотеки:
 
 - Wire - для общения с дисплеем по шине I2C
 - U8g2lib - для дисплея  
-- OneWireHub, OneWire и DS2401 - для iButton  
+- OneWireHub (Версия 1.2.0), OneWire и DS2401 - для iButton
 - EEPROM - для памяти  
 - avr/pgmspace - для flash памяти
-
-  
