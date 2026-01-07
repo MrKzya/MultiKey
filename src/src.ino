@@ -332,7 +332,7 @@ void drawListWithOffsetContent(const char* title, const char* const items[], int
       u8g2.drawStr(0, y, ">"); u8g2.drawStr(12, y, txtBuf); u8g2.drawFrame(10, y-2, 106, 13); 
     } else u8g2.drawStr(12, y, txtBuf); 
   }
-  u8g2.drawLine(122, 18, 122, 63); 
+  u8g2.drawLine(122, 18, 122, 62); 
   if (count > 1) {
      int barY = 18 + (cursorPosition * 35) / (count - 1);
      u8g2.drawFrame(119, barY, 7, 10);
